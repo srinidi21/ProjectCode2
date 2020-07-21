@@ -1,7 +1,9 @@
 package org.test;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 
 public class BrowserLaunch {
 	public static void main(String[] args) {
@@ -17,9 +19,12 @@ public class BrowserLaunch {
 		String title=driver.getTitle();
 		System.out.println(title);
 		
-		driver.findElement(By.id("email")).sendKeys("fgfgfbvbvb");
-		driver.findElement(By.id("pass")).sendKeys("7895632");
-		driver.findElement(By.id("loginbtn")).click();
+		
+		
+	
+		
+		
+	}
 	}
 
-}
+
