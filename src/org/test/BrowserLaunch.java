@@ -16,6 +16,10 @@ public class BrowserLaunch {
 		
 		String title=driver.getTitle();
 		System.out.println(title);
+		
+		driver.findElement(By.id("email")).sendKeys("fgfgfbvbvb");
+		driver.findElement(By.id("pass")).sendKeys("7895632");
+		driver.findElement(By.id("loginbtn")).click();
 	}
 
 }
